@@ -1,0 +1,212 @@
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC 
+"-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+    <head>
+        <title>Autenticazione utente e ente</title>
+        <meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1" />
+        <meta name="CODE_LANGUAGE" content="C#" />
+        <meta name="vs_defaultClientScript" content="JavaScript" />
+        <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	    <link href="http://www.e-desio.it/ULISS-e/css/sito_chStandard.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body onload="setmenu(0);">
+	    <form name="Form1" method="post" action="prlogent.aspx?IdSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=&amp;flTipo=1" id="Form1">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjEyMTcxMzc0MA9kFgRmD2QWDAIBDxYCHgRUZXh0BccvPGRpdiBpZD0iYm94Q2VudHJhbGUiPjxkaXYgY2xhc3M9InRvcCI+PGEgaHJlZj0iaHR0cDovL3d3dy5lLWRlc2lvLml0L1VMSVNTLWUiPjxkaXYgY2xhc3M9InZlcnl0b3AiID4gPHNwYW4gY2xhc3M9InRpdC1vcmFuZ2UiIGlkPSJsaWJMbEFwcGxpY2F6aW9uZSI+PC9zcGFuPjxiciAvPjxzcGFuIGNsYXNzPSJ0aXQtZW50ZSIgaWQ9ImxpYkxsTm9tZUVudGUiPi48L3NwYW4+PC9kaXY+PC9hPjxkaXYgY2xhc3M9Im1lbnV0b3AiPjxzcGFuIGNsYXNzPSJjdXJyZW50c2VjdGlvbiI+PGEgaHJlZj0iaHR0cDovL3d3dy5lLWRlc2lvLml0L1VMSVNTLWUvcG9ydGFsZS9wcmxvZ2VudC5hc3B4P0lkU2Vzc2lvbmU9eGgxZjF2NDVteHJ4anZlY3I1a2ZqbzQ1JmFtcDttZW5faWQ9X0F1dGVudGljYXppb25lIj5BdXRlbnRpY2F6aW9uZTwvYT48L3NwYW4+PGRpdiBjbGFzcz0iZGl2LWNoIiBpZD0iZGl2Q2giPjxzcGFuIGNsYXNzPSJjdXJyZW50c2VjdGlvbiI+PGEgaHJlZj0iaHR0cDovL3d3dy5lLWRlc2lvLml0L1VMSVNTLWUvcG9ydGFsZS9jaGNhcmF0dGVyaS5hc3B4P2NoPWx0Ij5BLTwvYT4mbmJzcDsmbmJzcDsmbmJzcDs8YSBocmVmPSJodHRwOi8vd3d3LmUtZGVzaW8uaXQvVUxJU1MtZS9wb3J0YWxlL2NoY2FyYXR0ZXJpLmFzcHg/Y2g9c3RkIj5BPC9hPiZuYnNwOyZuYnNwOyZuYnNwOzxhIGhyZWY9Imh0dHA6Ly93d3cuZS1kZXNpby5pdC9VTElTUy1lL3BvcnRhbGUvY2hjYXJhdHRlcmkuYXNweD9jaD1iZyI+QSs8L2E+PC9zcGFuPjwvZGl2PjwvZGl2PjwvZGl2Pgo8ZGl2IGlkPSJsZWZ0VHlsZSIgY2xhc3M9ImxlZnQtbWVudSI+CjxkaXYgaWQ9ImRpdk1lbnUiIGNsYXNzPSJ2aXMiPjx1bCBpZD0idWwwMF8wMCI+CjxsaSBjbGFzcz0ibGl2ZWxsbzEiPjxhIGhyZWY9Imh0dHA6Ly93d3cuZS1kZXNpby5pdC9VTElTUy1lL3V0aWxpdHkvaW5mby9pbmZvMDEuYXNweD9wYWdpbmE9REVNJmFtcDtpZFNlc3Npb25lPXhoMWYxdjQ1bXhyeGp2ZWNyNWtmam80NSZhbXA7bWVuX2lkPTAwLjAwIiBvbmNsaWNrPSJhcHJpY2hpdWRpKCcwMF8wMF8wMCcpIiB0aXRsZT0iU2Vydml6aSBEZW1vZ3JhZmljaSBDaXR0YWRpbmkiPlNlcnZpemkgRGVtb2dyYWZpY2kgQ2l0dGFkaW5pPC9hPjwvbGk+CjxsaSAgY2xhc3M9ImludmlzIiBpZD0ibGkwMF8wMF8wMCI+PHVsIGlkPSJ1bDAwXzAwXzAwIj4KPGxpIGNsYXNzPSJsaXZlbGxvMiI+PGEgaHJlZj0iaHR0cDovL3d3dy5lLWRlc2lvLml0L1VMSVNTLWUvYW5hZ3JhZmUvY29zb2dnMDEuYXNweD9pZFNlc3Npb25lPXhoMWYxdjQ1bXhyeGp2ZWNyNWtmam80NSZhbXA7bWVuX2lkPTAwLjAwLjAwIiB0aXRsZT0iQ29uc3VsdGF6aW9uZSBEYXRpIEFuYWdyYWZpY2kiPkNvbnN1bHRhemlvbmUgZGF0aTwvYT48L2xpPgo8bGkgY2xhc3M9ImxpdmVsbG8yIj48YSBocmVmPSJodHRwOi8vd3d3LmUtZGVzaW8uaXQvVUxJU1MtZS9hbmFncmFmZS9jb3ByYW4wMS5hc3B4P2lkU2Vzc2lvbmU9eGgxZjF2NDVteHJ4anZlY3I1a2ZqbzQ1JmFtcDttZW5faWQ9MDAuMDAuMDEiIHRpdGxlPSJDb25zdWx0YXppb25lIFByYXRpY2hlIj5Db25zdWx0YXppb25lIFByYXRpY2hlPC9hPjwvbGk+CjxsaSBjbGFzcz0ibGl2ZWxsbzIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuZS1kZXNpby5pdC9VTElTUy1lL2FuYWdyYWZlL2NlcnRpZjAxLmFzcHg/aWRTZXNzaW9uZT14aDFmMXY0NW14cnhqdmVjcjVrZmpvNDUmYW1wO21lbl9pZD0wMC4wMC4wMiIgdGl0bGU9IkF1dG9kaWNoaWFyYXppb25pIG9uLWxpbmUiPkF1dG9kaWNoaWFyYXppb25pIG9uLWxpbmU8L2E+PC9saT4KPGxpIGNsYXNzPSJsaXZlbGxvMiI+PGEgaHJlZj0iaHR0cDovL3d3dy5lLWRlc2lvLml0L1VMSVNTLWUvYW5hZ3JhZmUvYW5jcmVzMDEuYXNweD9pZFNlc3Npb25lPXhoMWYxdjQ1bXhyeGp2ZWNyNWtmam80NSZhbXA7bWVuX2lkPTAwLjAwLjAzIiB0aXRsZT0iUHJhdGljYSBkaSBjYW1iaW8gYWJpdGF6aW9uZSBvbi1saW5lIj5DYW1iaW8gYWJpdGF6aW9uZTwvYT48L2xpPgo8L3VsPjwvbGk+PGxpIGNsYXNzPSJsaXZlbGxvMSI+PGEgaHJlZj0iaHR0cDovL3d3dy5lLWRlc2lvLml0L1VMSVNTLWUvdXRpbGl0eS9pbmZvL2luZm8wMS5hc3B4P3BhZ2luYT1ERU0tRVQmYW1wO2lkU2Vzc2lvbmU9eGgxZjF2NDVteHJ4anZlY3I1a2ZqbzQ1JmFtcDttZW5faWQ9MDAuMDEiIG9uY2xpY2s9ImFwcmljaGl1ZGkoJzAwXzAxXzAwJykiIHRpdGxlPSJTZXJ2aXppIERlbW9ncmFmaWNpOiBVdGVudGkgQXV0b3JpenphdGkiPlNlcnZpemkgRGVtb2dyYWZpY2kgRW50aSBBdXRvcml6emF0aTwvYT48L2xpPgo8bGkgIGNsYXNzPSJpbnZpcyIgaWQ9ImxpMDBfMDFfMDAiPjx1bCBpZD0idWwwMF8wMV8wMCI+CjxsaSBjbGFzcz0ibGl2ZWxsbzIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuZS1kZXNpby5pdC9VTElTUy1lL2FuYWdyYWZlL2Nvc29nZzA3LmFzcHg/aWRTZXNzaW9uZT14aDFmMXY0NW14cnhqdmVjcjVrZmpvNDUmYW1wO21lbl9pZD0wMC4wMS4wMCIgdGl0bGU9IkNvbnN1bHRhemlvbmUgZW50aSB0ZXJ6aSI+Q29uc3VsdGF6aW9uZSBFbnRpIHRlcnppPC9hPjwvbGk+CjwvdWw+PC9saT48bGkgY2xhc3M9ImxpdmVsbG8xIj48YSBocmVmPSJodHRwOi8vd3d3LmUtZGVzaW8uaXQvVUxJU1MtZS91dGlsaXR5L2luZm8vaW5mbzAxLmFzcHg/cGFnaW5hPUFMQk8mYW1wO2lkU2Vzc2lvbmU9eGgxZjF2NDVteHJ4anZlY3I1a2ZqbzQ1JmFtcDttZW5faWQ9MDAuMDIiIG9uY2xpY2s9ImFwcmljaGl1ZGkoJzAwXzAyXzAwJykiIHRpdGxlPSJTZXJ2aXppbyBkaSBDb25zdWx0YXppb25lIEFsYm8gUHJldG9yaW8gRGVsaWJlcmUgLURldGVybWluZSI+QWxibyBQcmV0b3JpbyBEZWxpYmVyZSAtIERldGVybWluZTwvYT48L2xpPgo8bGkgIGNsYXNzPSJpbnZpcyIgaWQ9ImxpMDBfMDJfMDAiPjx1bCBpZD0idWwwMF8wMl8wMCI+CjxsaSBjbGFzcz0ibGl2ZWxsbzIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuZS1kZXNpby5pdC9VTElTUy1lL0JhY2hlY2EvY29hdHRpMDIuYXNweD9iYWNfY29kaWNlPTUwJlNPUlQ9RERQVUImYW1wO2lkU2Vzc2lvbmU9eGgxZjF2NDVteHJ4anZlY3I1a2ZqbzQ1JmFtcDttZW5faWQ9MDAuMDIuMDAiIHRpdGxlPSJMaXN0YSBjb21wbGV0YSBBbGJvIFByZXRvcmlvIChzb2xvIERlbGliZXJhemlvbmkgZSBEZXRlcm1pbmluYXppb25pKSI+TGlzdGEgY29tcGxldGEgKGRlbGliZXJlIGUgZGV0ZW1pbmUpPC9hPjwvbGk+CjxsaSBjbGFzcz0ibGl2ZWxsbzIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuZS1kZXNpby5pdC9VTElTUy1lL0JhY2hlY2EvY29hdHRpMDEuYXNweD9iYWNfY29kaWNlPTUwJmFtcDtpZFNlc3Npb25lPXhoMWYxdjQ1bXhyeGp2ZWNyNWtmam80NSZhbXA7bWVuX2lkPTAwLjAyLjAxIiB0aXRsZT0iUmljZXJjYSBBbGJvIFByZXRvcmlvIChzb2xvIERlbGliZXJhemlvbmkgZSBEZXRlcm1pbmluYXppb25pKSI+UmljZXJjYTwvYT48L2xpPgo8L3VsPjwvbGk+PGxpIGNsYXNzPSJsaXZlbGxvMSI+PGEgaHJlZj0iaHR0cDovL3d3dy5lLWRlc2lvLml0L1VMSVNTLWUvdXRpbGl0eS9pbmZvL2luZm8wMS5hc3B4P3BhZ2luYT1BVFRJJmFtcDtpZFNlc3Npb25lPXhoMWYxdjQ1bXhyeGp2ZWNyNWtmam80NSZhbXA7bWVuX2lkPTAwLjAzIiBvbmNsaWNrPSJhcHJpY2hpdWRpKCcwMF8wM18wMCcpIiB0aXRsZT0iQ29uc3VsdGF6aW9uZSBBdHRpIG9uLWxpbmUgRGVsaWJlcmUgZSBEZXRlcm1pbmUiPkF0dGkgb24tbGluZTwvYT48L2xpPgo8bGkgIGNsYXNzPSJpbnZpcyIgaWQ9ImxpMDBfMDNfMDAiPjx1bCBpZD0idWwwMF8wM18wMCI+CjxsaSBjbGFzcz0ibGl2ZWxsbzIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuZS1kZXNpby5pdC9VTElTUy1lL0JhY2hlY2EvY29hdHRpMDEuYXNweD9iYWNfY29kaWNlPTEmYW1wO2lkU2Vzc2lvbmU9eGgxZjF2NDVteHJ4anZlY3I1a2ZqbzQ1JmFtcDttZW5faWQ9MDAuMDMuMDAiIHRpdGxlPSJEZWxpYmVyZSBkaSBHaXVudGEiPkRlbGliZXJlIGRpIEdpdW50YTwvYT48L2xpPgo8bGkgY2xhc3M9ImxpdmVsbG8yIj48YSBocmVmPSJodHRwOi8vd3d3LmUtZGVzaW8uaXQvVUxJU1MtZS9CYWNoZWNhL2NvYXR0aTAxLmFzcHg/YmFjX2NvZGljZT0yJmFtcDtpZFNlc3Npb25lPXhoMWYxdjQ1bXhyeGp2ZWNyNWtmam80NSZhbXA7bWVuX2lkPTAwLjAzLjAxIiB0aXRsZT0iRGVsaWJlcmUgZGkgQ29uc2lnbGlvIj5EZWxpYmVyZSBkaSBDb25zaWdsaW88L2E+PC9saT4KPGxpIGNsYXNzPSJsaXZlbGxvMiI+PGEgaHJlZj0iaHR0cDovL3d3dy5lLWRlc2lvLml0L1VMSVNTLWUvQmFjaGVjYS9jb2F0dGkwMS5hc3B4P2JhY19jb2RpY2U9MyZhbXA7aWRTZXNzaW9uZT14aDFmMXY0NW14cnhqdmVjcjVrZmpvNDUmYW1wO21lbl9pZD0wMC4wMy4wMiIgdGl0bGU9IkRlbGliZXJlIENvbW1pc3NhcmlvIFByZWZldHRpemlvIEdpdW50YSI+RGVsaWJlcmUgQ29tbWlzc2FyaW8gUHJlZmV0dGl6aW8gR2l1bnRhPC9hPjwvbGk+CjxsaSBjbGFzcz0ibGl2ZWxsbzIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuZS1kZXNpby5pdC9VTElTUy1lL0JhY2hlY2EvY29hdHRpMDEuYXNweD9iYWNfY29kaWNlPTQmYW1wO2lkU2Vzc2lvbmU9eGgxZjF2NDVteHJ4anZlY3I1a2ZqbzQ1JmFtcDttZW5faWQ9MDAuMDMuMDMiIHRpdGxlPSJEZWxpYmVyZSBDb21taXNzYXJpbyBQcmVmZXR0aXppbyBDb25zaWdsaW8iPkRlbGliZXJlIENvbW1pc3NhcmlvIFByZWZldHRpemlvIENvbnNpZ2xpbzwvYT48L2xpPgo8bGkgY2xhc3M9ImxpdmVsbG8yIj48YSBocmVmPSJodHRwOi8vd3d3LmUtZGVzaW8uaXQvVUxJU1MtZS9CYWNoZWNhL2NvYXR0aTAxLmFzcHg/YmFjX2NvZGljZT01JmFtcDtpZFNlc3Npb25lPXhoMWYxdjQ1bXhyeGp2ZWNyNWtmam80NSZhbXA7bWVuX2lkPTAwLjAzLjA0IiB0aXRsZT0iRGV0ZXJtaW5lIGRlaSBkaXJpZ2VudGkiPkRldGVybWluZSBkZWkgZGlyaWdlbnRpPC9hPjwvbGk+CjwvdWw+PC9saT48bGkgY2xhc3M9ImxpdmVsbG8xIj48YSBocmVmPSIjIiBvbmNsaWNrPSJhcHJpY2hpdWRpKCcwMF8wNF8wMCcpIiB0aXRsZT0iU2Vydml6aSBVdGVudGUgRW50aSBBdXRvcml6emF0aSI+U2Vydml6aSBVdGVudGUgRW50aSBBdXRvcml6emF0aTwvYT48L2xpPgo8bGkgIGNsYXNzPSJpbnZpcyIgaWQ9ImxpMDBfMDRfMDAiPjx1bCBpZD0idWwwMF8wNF8wMCI+CjxsaSBjbGFzcz0ibGl2ZWxsbzIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuZS1kZXNpby5pdC9VTElTUy1lL3BvcnRhbGUvcHJjaHBhc3MuYXNweD9pZFNlc3Npb25lPXhoMWYxdjQ1bXhyeGp2ZWNyNWtmam80NSZhbXA7bWVuX2lkPTAwLjA0LjAwIiB0aXRsZT0iQ2FtYmlvIHBhc3N3b3JkIj5DYW1iaW8gcGFzc3dvcmQ8L2E+PC9saT4KPC91bD48L2xpPjxsaSBjbGFzcz0ibGl2ZWxsbzEiPjxhIGhyZWY9Imh0dHA6Ly93d3cuZS1kZXNpby5pdC9VTElTUy1lL2hvbWUuYXNweD9DSUQ9Y3JzJmFtcDtpZFNlc3Npb25lPXhoMWYxdjQ1bXhyeGp2ZWNyNWtmam80NSZhbXA7bWVuX2lkPTAwLjA1IiB0aXRsZT0iQXV0ZW50aWNhemlvbmUgQ2l0dGFkaW5pIHRyYW1pdGUgQ1JTIj5BdXRlbnRpY2F6aW9uZSBDaXR0YWRpbmkgdHJhbWl0ZSBDUlM8L2E+PC9saT4KPGxpIGNsYXNzPSJsaXZlbGxvMSI+PGEgaHJlZj0iaHR0cDovL3d3dy5jcnMubG9tYmFyZGlhLml0P2lkU2Vzc2lvbmU9eGgxZjF2NDVteHJ4anZlY3I1a2ZqbzQ1JmFtcDttZW5faWQ9MDAuMDYiIHRpdGxlPSJJc3RyaXppb25pIHN1bGwndXNvIGRlbGxhIENSUyBlIGFjY2Vzc28gYWx0cmkgc2Vydml6aSBkZWxsYSByZWdpb25lLCBhc2wsIG9zcGVkYWxlIj5TZXJ2aXppIFJlZ2lvbmFsZSBlIFV0aWxpenpvIGRlbGxhIENSUzwvYT48L2xpPgo8bGkgY2xhc3M9ImxpdmVsbG8xIj48YSBocmVmPSIjIiBvbmNsaWNrPSJhcHJpY2hpdWRpKCcwMF8wN18wMCcpIiB0aXRsZT0iTGluayBFc3Rlcm5pIFNlcnZpemkgYWwgQ2l0dGFkaW5vIj5MaW5rIEVzdGVybmkgU2Vydml6aSBhbCBDaXR0YWRpbm88L2E+PC9saT4KPGxpICBjbGFzcz0iaW52aXMiIGlkPSJsaTAwXzA4XzAwIj48dWwgaWQ9InVsMDBfMDhfMDAiPgo8L3VsPjwvbGk+PC91bD48L2Rpdj4KPC9kaXY+ZAIDDxYCHwAFggE8ZGl2IGNsYXNzPSJ0b3AtbWFpbiI+PGI+U2VpIGluPC9iPiA8c3Bhbj4gID4gPGEgY2xhc3M9ImhvbWVsaW5rIiBocmVmPSJodHRwOi8vd3d3LmUtZGVzaW8uaXQvVUxJU1MtZSI+SG9tZTwvYT48L3NwYW4+PC9kaXY+PGJyIC8+ZAIFDxYCHglpbm5lcmh0bWwFOlBlciBhY2NlZGVyZSBhbCBzZXJ2aXppbyBzZWxlemlvbmF0byBvY2NvcnJlIGF1dGVudGljYXJzaSBkAgcPFgIeB3N1bW1hcnkFOlBlciBhY2NlZGVyZSBhbCBzZXJ2aXppbyBzZWxlemlvbmF0byBvY2NvcnJlIGF1dGVudGljYXJzaSAWIgIBDxYCHgdWaXNpYmxlaBYCZg8WAh8BBThTZWxlemlvbmFyZSBsJ2VudGUgcGVyIGN1aSBzaSB2dW9sZSByaWNoaWVkZXJlIGkgc2Vydml6aWQCAg8WAh8DaBYCZg9kFgICAQ8QZBAVAhVzZWxlemlvbmFyZSBkYSBlbGVuY28BLhUCATAEQ09DQRQrAwJnZxQrAQBkAgMPZBYCZg8WAh8BBSZBdXRlbnRpY2F6aW9uZSBjb24gVXNlcm5hbWUgZSBQYXNzd29yZGQCBA9kFgICAw9kFgICAQ8WAh8BZWQCBQ9kFgICAQ9kFgJmDxYCHwEFCVVzZXJuYW1lOmQCBg9kFgICAQ9kFgJmDxYCHwEFCVBhc3N3b3JkOmQCCA9kFgQCAQ9kFgQCAQ8WBB4FdmFsdWUFCENvbmZlcm1hHgdvbmNsaWNrBQ9jaGVja3JlcShldmVudClkAgMPFgIfBAUHQW5udWxsYWQCAg9kFgICAQ8WBB8EBQ1QcmltbyBhY2Nlc3NvHgV0aXRsZQV1Y2xpY2NhbmRvIHN1IHF1ZXN0byBwdWxzYW50ZSBzaSBlZmZldHR1YSBsJ2F1dGVudGljYXppb25lIHBlciBpbCBwcmltbyBhY2Nlc3NvOiDDqCBuZWNlc3NhcmlvIGNvbm9zY2VyZSBzb2xvIFVzZXJuYW1lZAIJDxYCHwNoZAIKDxYCHwNoZAILDxYCHwNoZAIMDxYCHwNoZAINDxYCHwNoZAIODxYCHwNoFgJmDxYCHwEFHUF1dGVudGljYXppb25lIGNvbiBTbWFydCBDYXJkZAIPDxYCHwNoZAIQDxYCHwNoFgJmD2QWAmYPFgQfBgUuaXN0cnV6aW9uaSBwZXIgYXV0ZW50aWNhcnNpIGNvbiB1bmEgc21hcnQgY2FyZB8BBdkBUHJpbWEgZGkgcHJvY2VkZXJlIGNvbiBsJ2F1dGVudGljYXppb25lIG1lZGlhbnRlIHNtYXJ0IGNhcmQsIGluc2VyaXJlIGxhIGNhcnRhIGRpIGN1aSBzaSBkaXNwb25lIG5lbCBsZXR0b3JlIG9wcG9ydHVuYW1lbnRlIGluc3RhbGxhdG8gZSBjb25maWd1cmF0bywgYXR0ZW5kZXJlIGFsY3VuaSBzZWNvbmRpLCBxdWluZGkgY2xpY2NhcmUgc3VsIHB1bHNhbnRlIHNvdHRvc3RhbnRlLmQCEQ8WAh8DaGQCEg8WAh8DaBYCZg9kFgICAQ8WBB8EBQhDb25mZXJtYR8GBTtjbGljY2FuZG8gc3UgcXVlc3RvIHB1bHNhbnRlIGNpIHNpIGF1dGVudGljYSBjb24gc21hcnQgY2FyZGQCCQ8WAh8GBSZTZXppb25lIGNvbnRlbmVudGUgbWVzc2FnZ2kgZS9vIGVycm9yaWQCCw8WAh8ABUE8ZGl2IGlkPSJwb3J0YWwtZm9vdGVyIj48cD48Yj5DaXR0w6AgZGkgRGVzaW88L2I+PC9wPjwvZGl2PjwvZGl2PmQCAQ8WAh8ABW08c2NyaXB0IHNyYz0iaHR0cDovL3d3dy5lLWRlc2lvLml0L1VMSVNTLWUvaW5jbHVkZS9paWpzY3Jubi5qcyIgIHR5cGU9InRleHQvamF2YXNjcmlwdCIgaWQ9IlNjckxpYiI+PC9zY3JpcHQ+ZGR+87E11+eAD1XxvO/PEA51CsR8ag==" />
+
+<script type="text/javascript">
+<!--
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</script>
+
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBgLNm+nCBgLf6KO7DAKGtsDnCQKD3KOmCALJgIe2DALwmIyuCBD5581uawOY8tYiT7010pdsBBoQ" />
+	<table class="layout"><tr><td>
+<!-- ******** INIZIO AREA MENU *********** -->
+            <div id="boxCentrale"><div class="top"><a href="http://www.e-desio.it/ULISS-e"><div class="verytop" > <span class="tit-orange" id="libLlApplicazione"></span><br /><span class="tit-ente" id="libLlNomeEnte">.</span></div></a><div class="menutop"><span class="currentsection"><a href="http://www.e-desio.it/ULISS-e/portale/prlogent.aspx?IdSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=_Autenticazione">Autenticazione</a></span><div class="div-ch" id="divCh"><span class="currentsection"><a href="http://www.e-desio.it/ULISS-e/portale/chcaratteri.aspx?ch=lt">A-</a>&nbsp;&nbsp;&nbsp;<a href="http://www.e-desio.it/ULISS-e/portale/chcaratteri.aspx?ch=std">A</a>&nbsp;&nbsp;&nbsp;<a href="http://www.e-desio.it/ULISS-e/portale/chcaratteri.aspx?ch=bg">A+</a></span></div></div></div>
+<div id="leftTyle" class="left-menu">
+<div id="divMenu" class="vis"><ul id="ul00_00">
+<li class="livello1"><a href="http://www.e-desio.it/ULISS-e/utility/info/info01.aspx?pagina=DEM&amp;idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.00" onclick="aprichiudi('00_00_00')" title="Servizi Demografici Cittadini">Servizi Demografici Cittadini</a></li>
+<li  class="invis" id="li00_00_00"><ul id="ul00_00_00">
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/anagrafe/cosogg01.aspx?idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.00.00" title="Consultazione Dati Anagrafici">Consultazione dati</a></li>
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/anagrafe/copran01.aspx?idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.00.01" title="Consultazione Pratiche">Consultazione Pratiche</a></li>
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/anagrafe/certif01.aspx?idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.00.02" title="Autodichiarazioni on-line">Autodichiarazioni on-line</a></li>
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/anagrafe/ancres01.aspx?idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.00.03" title="Pratica di cambio abitazione on-line">Cambio abitazione</a></li>
+</ul></li><li class="livello1"><a href="http://www.e-desio.it/ULISS-e/utility/info/info01.aspx?pagina=DEM-ET&amp;idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.01" onclick="aprichiudi('00_01_00')" title="Servizi Demografici: Utenti Autorizzati">Servizi Demografici Enti Autorizzati</a></li>
+<li  class="invis" id="li00_01_00"><ul id="ul00_01_00">
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/anagrafe/cosogg07.aspx?idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.01.00" title="Consultazione enti terzi">Consultazione Enti terzi</a></li>
+</ul></li><li class="livello1"><a href="http://www.e-desio.it/ULISS-e/utility/info/info01.aspx?pagina=ALBO&amp;idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.02" onclick="aprichiudi('00_02_00')" title="Servizio di Consultazione Albo Pretorio Delibere -Determine">Albo Pretorio Delibere - Determine</a></li>
+<li  class="invis" id="li00_02_00"><ul id="ul00_02_00">
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/Bacheca/coatti02.aspx?bac_codice=50&SORT=DDPUB&amp;idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.02.00" title="Lista completa Albo Pretorio (solo Deliberazioni e Determininazioni)">Lista completa (delibere e detemine)</a></li>
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/Bacheca/coatti01.aspx?bac_codice=50&amp;idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.02.01" title="Ricerca Albo Pretorio (solo Deliberazioni e Determininazioni)">Ricerca</a></li>
+</ul></li><li class="livello1"><a href="http://www.e-desio.it/ULISS-e/utility/info/info01.aspx?pagina=ATTI&amp;idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.03" onclick="aprichiudi('00_03_00')" title="Consultazione Atti on-line Delibere e Determine">Atti on-line</a></li>
+<li  class="invis" id="li00_03_00"><ul id="ul00_03_00">
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/Bacheca/coatti01.aspx?bac_codice=1&amp;idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.03.00" title="Delibere di Giunta">Delibere di Giunta</a></li>
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/Bacheca/coatti01.aspx?bac_codice=2&amp;idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.03.01" title="Delibere di Consiglio">Delibere di Consiglio</a></li>
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/Bacheca/coatti01.aspx?bac_codice=3&amp;idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.03.02" title="Delibere Commissario Prefettizio Giunta">Delibere Commissario Prefettizio Giunta</a></li>
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/Bacheca/coatti01.aspx?bac_codice=4&amp;idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.03.03" title="Delibere Commissario Prefettizio Consiglio">Delibere Commissario Prefettizio Consiglio</a></li>
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/Bacheca/coatti01.aspx?bac_codice=5&amp;idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.03.04" title="Determine dei dirigenti">Determine dei dirigenti</a></li>
+</ul></li><li class="livello1"><a href="#" onclick="aprichiudi('00_04_00')" title="Servizi Utente Enti Autorizzati">Servizi Utente Enti Autorizzati</a></li>
+<li  class="invis" id="li00_04_00"><ul id="ul00_04_00">
+<li class="livello2"><a href="http://www.e-desio.it/ULISS-e/portale/prchpass.aspx?idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.04.00" title="Cambio password">Cambio password</a></li>
+</ul></li><li class="livello1"><a href="http://www.e-desio.it/ULISS-e/home.aspx?CID=crs&amp;idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.05" title="Autenticazione Cittadini tramite CRS">Autenticazione Cittadini tramite CRS</a></li>
+<li class="livello1"><a href="http://www.crs.lombardia.it?idSessione=xh1f1v45mxrxjvecr5kfjo45&amp;men_id=00.06" title="Istrizioni sull'uso della CRS e accesso altri servizi della regione, asl, ospedale">Servizi Regionale e Utilizzo della CRS</a></li>
+<li class="livello1"><a href="#" onclick="aprichiudi('00_07_00')" title="Link Esterni Servizi al Cittadino">Link Esterni Servizi al Cittadino</a></li>
+<li  class="invis" id="li00_08_00"><ul id="ul00_08_00">
+</ul></li></ul></div>
+</div>
+            <div id="corpoServ"><div class="box">
+            <div class="top-main"><b>Sei in</b> <span>  > <a class="homelink" href="http://www.e-desio.it/ULISS-e">Home</a></span></div><br /> <br />
+<!-- ******** FINE GESTIONE MENU ************* -->
+<!-- ******** INIZIO AREA SERVIZIO *********** -->
+	        <div class="div-hc2"><h2 id="Titolo" class="hc2">Per accedere al servizio selezionato occorre autenticarsi </h2></div>
+	        <table id="id_table" class="layout" summary="Per accedere al servizio selezionato occorre autenticarsi ">
+	<tr>
+		<th class="largh30"></th>
+		<th class="largh20"></th>
+		<th class="largh20"></th>
+		<th class="largh30"></th>
+	</tr>
+	<tr id="userPwdHeader">
+		<td id="autUP" class="titolo-tab" colspan="4">Autenticazione con Username e Password</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="linkRegistrazioneUtente"></span></td>
+	</tr>
+	<tr id="trlogin1">
+		<td>&nbsp;</td>
+		<td><label id="username" class="labB">Username:</label></td>
+		<td><input name="cdusername" type="text" id="cdusername" class="inpl-enabled" /></td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr id="trlogin2">
+		<td>&nbsp;</td>
+		<td><label id="password" class="labB">Password:</label></td>
+		<td><input name="cdpassword" type="password" id="cdpassword" class="inpl-enabled" /></td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr id="space2">
+		<td colspan="4">&nbsp;</td>
+	</tr>
+	<tr id="userPwdAuthBtn">
+		<td>&nbsp;</td>
+		<td colspan="2" class="center">
+								<input name="btnInvia" type="submit" id="btnInvia" value="Conferma" class="btn-enabled" onclick="checkreq(event)" />
+								<input name="btnReset" type="reset" id="btnReset" value="Annulla" class="btn-enabled" />
+							</td>
+		<td>
+							    <input name="btn1Time" type="submit" id="btn1Time" value="Primo accesso" class="btn-enabled" title="cliccando su questo pulsante si effettua l'autenticazione per il primo accesso: è necessario conoscere solo Username" />
+							    
+							</td>
+	</tr>
+	<tr>
+		<td colspan="2">&nbsp;</td>
+		<td>
+						        <input name="countErr" type="hidden" id="countErr" value="0" />
+						    </td>
+	</tr>
+</table>
+
+	        <br />
+            <div id="div_message" title="Sezione contenente messaggi e/o errori"></div>
+	    </div>
+	</div>
+<!-- ******** FINE AREA SERVIZIO *********** --><div id="portal-footer"><p><b>Città di Desio</b></p></div></div></td></tr></table>
+</form>
+        <script type="text/javascript">
+    //<![CDATA[
+    
+		function checkEnte()
+		{
+			//if (document.Form1.id_ente)
+			if(document.getElementById("id_ente") != null)
+	        {
+		        if(document.Form1.id_ente.value == 0)
+		        {
+		            document.Form1.id_ente.className = "inpm-error";
+		            return "- Ente <br />";
+			    }
+			    else
+		            document.Form1.id_ente.className = "inpm-enabled";
+	        }
+	        return "";
+	    }
+
+	    // Reggiani C. Autenticazione con CIE 05/04/2011
+	    function btn_openWindowsCIE() 
+	    {
+	        window.open('prlogcie.aspx', 'dn', 'width=80,height=100,toolbar=no,top=250,left=350,right=1, scrollbars=no,locaton=1,resizable=0');
+	    }
+    
+        function checkreq(e)
+        {
+	        var i;
+	        var strDetails = "", ls_str;
+	        var strTitle = "";
+        	
+	        //if (document.Form1.cdusername)
+			if(document.getElementById("cdusername") != null)
+	        {
+    	        ls_str = fl_req(document.Form1.cdusername.value, "Username");
+	            if (ls_str != "")
+		            document.Form1.cdusername.className = "inpl-error";
+	            else
+		            document.Form1.cdusername.className = "inpl-enabled";
+	            strDetails += ls_str;
+    	        ls_str = fl_req(document.Form1.cdpassword.value, "Password");
+	            if (ls_str != "")
+		            document.Form1.cdpassword.className = "inpl-error";
+	            else
+		            document.Form1.cdpassword.className = "inpl-enabled";
+	            strDetails += ls_str;
+	        }
+        	
+	        strDetails += checkEnte();
+        	
+	        if (strDetails  != "") 
+	        {
+		        fl_cancel_event(e);
+		        strTitle = "<span id=\"errore\" >Informazioni non valide o mancanti nei sgg. campi: </span> <br />"; 
+		        document.getElementById("div_message").innerHTML = strTitle + "<span id=\"errore1\" class=\"des-errore\" >" + strDetails + "</span>"
+		        document.getElementById("div_message").className = "errore";
+	        }
+        }
+        
+        function checkSSLLogon(e)
+        {
+			if(document.getElementById("id_ente") != null)
+			{
+				var errValue=checkEnte();
+				if(errValue != "")
+				{
+					fl_cancel_event(e);
+					strTitle = "<span id=\"errore\" >Informazioni non valide o mancanti nei sgg. campi: </span> <br />"; 
+					document.getElementById("div_message").innerHTML = strTitle + "<span id=\"errore1\" class=\"des-errore\" >" + errValue + "</span>"
+					document.getElementById("div_message").className = "errore";
+				}
+				
+			}
+        }
+    //]]>
+        </script>
+        <script src="http://www.e-desio.it/ULISS-e/include/iijscrnn.js"  type="text/javascript" id="ScrLib"></script>
+    </body>
+</html>
