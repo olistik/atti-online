@@ -134,7 +134,12 @@ function scrapeDeepRecord(index) {
           this.download(item.url, item.fullPath);
           record.documents.list.push(item.fullPath);
         }
-
+        if (list.length == 0) {
+          this.echo("No documents found for record #" + record.number);
+          var screenshotFilename = "noDocumentsFound_" + record.number + ".png";
+          this.echo("Saving screenshot for later inspection at: " + screenshotFilename);
+          this.capture(screenshotFilename);
+        }
         if (index < records.length - 1) {
           scrapeDeepRecord(index  + 1);
         } else {
