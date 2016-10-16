@@ -75,68 +75,73 @@ function scrapeDeepRecord(index) {
     var url = record.documents.result;
     casper.thenOpen(url, function() {
       this.echo("Loaded url: " + url);
-      var list = this.evaluate(function() {
-        var rows = document.querySelectorAll("#tbl_dett tr");
-        var list = [];
-        for (var i = 1; i < rows.length; ++i) {
-          var row = rows[i];
-          var cells = row.querySelectorAll("td");
-          var filename = cells[0].querySelector(".spanC").innerHTML;
-          var availableLinks = cells[1].querySelectorAll("a");
-          var urls = [];
-          for (var j = 0; j < availableLinks.length; ++j) {
-            var link = availableLinks[j];
-            var data = {
-              url: null,
-              filename: null
-            };
-            data.url = link.href;
-            var iconPath = link.querySelector("img").src;
-            var resourceType = iconPath.toLowerCase().match(/.*\/icodoc([a-z0-9]+)\.[a-z0-9]+/)[1];
-            var extension = null;
-            switch (resourceType) {
-              case "p7m":
-                extension = "p7m";
-                break;
-              case "acrobat":
-                extension = "pdf";
-                break;
-              case "word":
-                extension = "doc";
-                break;
-              default:
-                extension = "unknown";
+      this.echo("Waiting for page to load..");
+      this.waitForSelector(".btn-enabled-Stm", function() {
+        this.echo("Page loaded");
+        var list = this.evaluate(function() {
+          var rows = document.querySelectorAll("#tbl_dett tr");
+          var list = [];
+          for (var i = 1; i < rows.length; ++i) {
+            var row = rows[i];
+            var cells = row.querySelectorAll("td");
+            var filename = cells[0].querySelector(".spanC").innerHTML;
+            var availableLinks = cells[1].querySelectorAll("a");
+            var urls = [];
+            for (var j = 0; j < availableLinks.length; ++j) {
+              var link = availableLinks[j];
+              var data = {
+                url: null,
+                filename: null
+              };
+              data.url = link.href;
+              var iconPath = link.querySelector("img").src;
+              var resourceType = iconPath.toLowerCase().match(/.*\/icodoc([a-z0-9]+)\.[a-z0-9]+/)[1];
+              var extension = null;
+              switch (resourceType) {
+                case "p7m":
+                  extension = "p7m";
+                  break;
+                case "acrobat":
+                  extension = "pdf";
+                  break;
+                case "word":
+                  extension = "doc";
+                  break;
+                default:
+                  extension = "unknown";
+              }
+              var regexp = new RegExp(extension, "i");
+              if (filename.match(regexp) === null) {
+                data.filename = j + "_" + filename + "." + extension;
+              } else {
+                data.filename = j + "_" + filename;
+              }
+              list.push(data);
             }
-            var regexp = new RegExp(extension, "i");
-            if (filename.match(regexp) === null) {
-              data.filename = j + "_" + filename + "." + extension;
-            } else {
-              data.filename = j + "_" + filename;
-            }
-            list.push(data);
           }
+          return list;
+        });
+
+        var docs_path = documentsBasePath + "/" + record.number + "_" + record.author;
+        if (!fs.exists(docs_path)) {
+          fs.makeDirectory(docs_path);
         }
-        return list;
-      });
+        record.documents.list = [];
+        for (var j = 0; j < list.length; ++j) {
+          var item = list[j];
+          item.fullPath = docs_path + "/" + item.filename;
+          this.echo("Downloading " + item.fullPath);
+          this.download(item.url, item.fullPath);
+          record.documents.list.push(item.fullPath);
+        }
 
-      var docs_path = documentsBasePath + "/" + record.number + "_" + record.author;
-      if (!fs.exists(docs_path)) {
-        fs.makeDirectory(docs_path);
-      }
-      record.documents.list = [];
-      for (var j = 0; j < list.length; ++j) {
-        var item = list[j];
-        item.fullPath = docs_path + "/" + item.filename;
-        this.echo("Downloading " + item.fullPath);
-        this.download(item.url, item.fullPath);
-        record.documents.list.push(item.fullPath);
-      }
+        if (index < records.length - 1) {
+          scrapeDeepRecord(index  + 1);
+        } else {
+          saveResults();
+        }
 
-      if (index < records.length - 1) {
-        scrapeDeepRecord(index  + 1);
-      } else {
-        saveResults();
-      }
+      })
     });
   } else {
     if (index < records.length - 1) {
