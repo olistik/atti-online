@@ -71,3 +71,7 @@ For this reason I've prepared a script that chains batches together:
 ```
 
 It currently performs 10 batches each covering the fetch of 50 records therefore covering a total amount of 500 records.
+
+## License
+
+This project is licensed under the AGPLv3.
